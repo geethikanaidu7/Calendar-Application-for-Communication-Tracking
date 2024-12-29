@@ -1,9 +1,14 @@
 import React from 'react';
+import './App.css';  // Make sure to import your CSS file for styling
+
+// Your calendar component (assuming you have one)
+import Calendar from './Calendar'; // Example, replace with actual import
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello, React!</h1>
+      <h1>Calendar Application for Communication Tracking</h1>
+      <Calendar />  {/* Render the Calendar component here */}
     </div>
   );
 }
