@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';  // Make sure to import your CSS file for styling
 
 // Your calendar component (assuming you have one)
 import Calendar from './Calendar'; // Example, replace with actual import
